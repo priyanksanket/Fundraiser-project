@@ -1,0 +1,103 @@
+/* Reset some default browser styles */
+body, h1, h2, label, textarea, select, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px;
+}
+
+/* Page heading */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 30px auto;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    background: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #003d82;
+}
+
+/* Donation history section */
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 15px;
+}
+
+#donationHistory {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+/* Styling for mobile responsiveness */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.8em;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    #donationHistory {
+        width: 90%;
+    }
+}

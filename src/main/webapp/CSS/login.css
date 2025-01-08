@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn-primary {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.btn-primary:hover {
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
